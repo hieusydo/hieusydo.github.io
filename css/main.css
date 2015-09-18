@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+body {
+    font-family: "Lato", Times, Serif;
+}
+
+#display {
+    position: absolute;
+    z-index: 1;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+    color: #404040;
+}
+
+h1 {
+    font-size: 96px;
+}
+
+#intro,
+#writings,
+#projects,
+#contact {
+    text-align: center;
+    background-color: #fff;
+}
+
+#intro {
+    height: 100%;
+}
+
+#projects h2 {
+	color: #E57373;
+}
+
+#writings h2 {
+	color: #64B5F6;
+}
+
+#contact h2 {
+	color: #81C784;
+}
+
+#writings,
+#projects,
+#contact {
+    display: block;
+    overflow: auto;
+}
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.navbar li {
+    color: #000
+}
+
+#tag-projects {
+	color: #E57373;
+}
+
+#tag-writings {
+	color: #64B5F6;
+}
+
+#tag-contacts {
+	color: #81C784;
+}
+
+.content {
+    font-weight: normal;
+    padding: 0 30px 30px 30px;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+#break-projects {
+    height: 5px;
+    background-color: #E57373;
+}
+
+#break-writings {
+    height: 5px;
+    background-color: #64B5F6;
+}
+
+#break-contact {
+    height: 5px;
+    background-color: #81C784;
+}
+
+.contact-icon {
+    padding: 15px;
+    color: #81C784;
+}
