@@ -63,12 +63,24 @@ h1 {
 	color: #E57373;
 }
 
+a#tag-projects:hover {
+    border-bottom: 2px solid #E57373 !important;
+}
+
 #tag-writings {
 	color: #64B5F6;
 }
 
+a#tag-writings:hover {
+    border-bottom: 2px solid #64B5F6;
+}
+
 #tag-contacts {
 	color: #81C784;
+}
+
+a#tag-contacts:hover {
+    border-bottom: 2px solid #81C784; 
 }
 
 .content {
