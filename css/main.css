@@ -14,8 +14,13 @@ h2 {
     color: #404040;
 }
 
+h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
 h1 {
-    font-size: 96px;
+    font-size: 75px;
 }
 
 #intro,
@@ -28,18 +33,20 @@ h1 {
 
 #intro {
     height: 100%;
+    background-image: url("../img/light-blue-background.jpg");
+    background-size: cover;
 }
 
 #projects h2 {
-	color: #E57373;
+    color: #E57373;
 }
 
 #writings h2 {
-	color: #64B5F6;
+    color: #64B5F6;
 }
 
 #contact h2 {
-	color: #81C784;
+    color: #81C784;
 }
 
 #writings,
@@ -60,15 +67,21 @@ h1 {
 }
 
 #tag-projects {
-	color: #E57373;
+    color: #E57373;
+}
+
+a#tag-projects {
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
 }
 
 a#tag-projects:hover {
-    border-bottom: 2px solid #E57373 !important;
+    border-bottom: 2px solid #E57373;
 }
 
 #tag-writings {
-	color: #64B5F6;
+    font-weight: bold;
+    color: #64B5F6;
 }
 
 a#tag-writings:hover {
@@ -76,20 +89,40 @@ a#tag-writings:hover {
 }
 
 #tag-contacts {
-	color: #81C784;
+    font-weight: bold;
+    color: #81C784;
 }
 
 a#tag-contacts:hover {
-    border-bottom: 2px solid #81C784; 
+    border-bottom: 2px solid #81C784;
 }
 
 .content {
     font-weight: normal;
-    padding: 0 30px 30px 30px;
+    padding: 0 70px 30px 70px;
 }
 
 .content p {
-    font-size: 18px;
+    font-size: 17px;
+    text-align: left;
+    margin: 0 0 10px;
+}
+
+.content th,
+td {
+    padding: 15px 0 30px 0;
+}
+
+.content th {
+    width: 30%;
+}
+
+.content th div {
+    margin-bottom: 15px;
+}
+
+.content img {
+    border-radius: 5px;
 }
 
 #break-projects {
