@@ -3,8 +3,8 @@
 <head>
     <title>Hieu Do</title>
     <link rel="icon" href="favicon.ico">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='css/main.css' rel='stylesheet' type='text/css'>
     <script src="js/jquery.js"></script>
     <script src="js/jquery.smooth-scroll.js"></script>
@@ -16,11 +16,13 @@
 </head>
 
 <body>
+
     <!-- <canvas id='display' width='1' height='1'> </canvas> -->
     <section id="intro" onresize="canvassetup()">
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
+                	<p id="greetings">Welcome to my world!</p>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -29,25 +31,27 @@
                         <li><a href="#contact" id="tag-contacts">CONTACT</a></li>
                     </ul>
                 </div>
+            </div>
         </nav>
-        <h1>Hi, I'm Hieu</h1>
-        <h2>Software &amp Computer Engineer</h2>
-        <h2>in NYC</h2>
+        <div class="bio">
+	        <h1>Hieu Do</h1>
+	        <h2>Software &amp Computer Engineer</h2>        	
+        </div>
     </section>
     <div id="break-projects"></div>
     <section id="projects">
         <h2>PROJECTS</h2>
         <div class="content">
-            <p>I am interested in both software and hardware.</p>
-            <p>With experience in web development, I built a platform where Vietnamese teenagers can share psycho-physiological issues and receive information as well as support. The project was formed at Vietnam Hackademics 2015, a national hackathon for educational products, won 2nd prize, and continued to be developed up to now under the mentorship of Platform5 (www.platform5.ch) a professional UI/UX company.</p>
-            <p>Additionally, I also enjoyed tinkering with Arduino and Raspberry Pi. My first Arduino project was a home thermostat with an additional UI on an LCD display. Currently, I am looking into computer security using the Raspberry Pi running Kali Linux. At YHack, I hope to delve more into my interest, connect to other people and learn from them as well.</p>
-            <p>Here are my projects: </p>
+            <p>My first creation was a weird-looking helicopter built with LEGO blocks when I was ten. I like both software and hardware and have been coding and tinkering with eletronics since high school.</p>
+            <p>Currently, I am a freshman at New York University, majoring in Computer Science &amp Engineering. Music is where I chase my random thoughts. Books are where I reflect on my life. Hackathons are where I meet people.</p>
+            <p>Btw, I also really like ramen.</p>
+			
             <table>
                 <tbody>
                     <tr>
                         <th>
                             <div>
-                                <p>Thermostat with Arduino</p>
+                                <h3>Notr: Text Visualization with Application <br> in Dynamic Mind Mapping</h3>
                             </div>
                             <img src="http://www.stillhq.com/arduino/thermostat-smaller.jpg" alt="" width="75%">
                         </th>
@@ -58,7 +62,7 @@
                     <tr>
                         <th>
                             <div>
-                                <p>Project name</p>
+                                <h3>SIA: Talk About It - Sex-ed for <br>Vietnamese Teens</h3>
                             </div>
                             <img src="http://www.blogcdn.com/www.engadget.com/media/2012/09/09-20-2012form-1-on-desk00-1348689824.jpg" alt="" width="75%">
                         </th>
@@ -69,7 +73,7 @@
                     <tr>
                         <th>
                             <div>
-                                <p>Project name</p>
+                                <h3>Arduino-based Home Thermostat</h3>
                             </div>
                             <img src="http://abduzeedo.com/files/originals/google_material-design_10-2998x1998.jpg" alt="" width="75%">
                         </th>
@@ -198,5 +202,8 @@
     </script>	
     </div> -->
 </body>
+<footer>
+	Copyright &copy	2015 Hieu Do
+</footer>
 
 </html>

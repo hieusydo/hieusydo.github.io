@@ -1,11 +1,31 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
-    font-family: "Lato", Times, Serif;
+    font-family: "Roboto", sans-serif;
 }
 
-#display {
+
+/*#display {
     position: absolute;
     z-index: 1;
+}*/
+
+/*Shoutout to @samarkandiy for the cool instruction on adding type animation with just css http://codepen.io/rusjames/pen/uAFhE*/
+#greetings {
+    text-align: left;
+    color: #404040;
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 20px;
+    margin: 10px 0 0 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 4s steps(100, end);
+}
+@keyframes type {
+    from {
+        width: 0;
+    }
 }
 
 h1,
@@ -23,18 +43,29 @@ h1 {
     font-size: 75px;
 }
 
+h3 {
+	font-size: 20px;
+	word-wrap: break-word;
+}
+
 #intro,
 #writings,
 #projects,
 #contact {
     text-align: center;
     background-color: #fff;
+    padding: 50px;
 }
 
 #intro {
     height: 100%;
     background-image: url("../img/light-blue-background.jpg");
     background-size: cover;
+}
+
+.bio {
+    position: relative;
+    top: 30%;
 }
 
 #projects h2 {
@@ -70,13 +101,17 @@ h1 {
     color: #E57373;
 }
 
+a {
+	font-size: 15px !important;
+}
+
 a#tag-projects {
     font-weight: bold;
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 
 a#tag-projects:hover {
-    border-bottom: 2px solid #E57373;
+    border-bottom: 3px solid #E57373;
 }
 
 #tag-writings {
@@ -85,7 +120,7 @@ a#tag-projects:hover {
 }
 
 a#tag-writings:hover {
-    border-bottom: 2px solid #64B5F6;
+    border-bottom: 3px solid #64B5F6;
 }
 
 #tag-contacts {
@@ -94,7 +129,7 @@ a#tag-writings:hover {
 }
 
 a#tag-contacts:hover {
-    border-bottom: 2px solid #81C784;
+    border-bottom: 3px solid #81C784;
 }
 
 .content {
@@ -103,7 +138,7 @@ a#tag-contacts:hover {
 }
 
 .content p {
-    font-size: 17px;
+    font-size: 20px;
     text-align: left;
     margin: 0 0 10px;
 }
@@ -143,4 +178,10 @@ td {
 .contact-icon {
     padding: 15px;
     color: #81C784;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 15px;
 }
