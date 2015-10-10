@@ -1,22 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0; 
+    padding: 0;
 }
-
-
-/*#display {
-    position: absolute;
-    z-index: 1;
-}*/
 
 /*Shoutout to @samarkandiy for the cool instruction on adding type animation with just css http://codepen.io/rusjames/pen/uAFhE*/
 #greetings {
-    text-align: left;
     color: #404040;
     font-family: "Roboto Mono", sans-serif;
     font-size: 20px;
-    margin: 10px 0 0 25px;
+    margin: 0 auto;
     white-space: nowrap;
     overflow: hidden;
     width: 30em;
@@ -28,19 +25,16 @@ body {
     }
 }
 
-h1,
-h2 {
-    font-weight: bold;
-    color: #404040;
-}
-
-h2 {
-    font-size: 35px;
-    margin-bottom: 30px;
-}
-
 h1 {
-    font-size: 75px;
+    font-weight: 800;
+    color: #404040;
+    font-size: 5em;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 300;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -54,13 +48,14 @@ h3 {
 #contact {
     text-align: center;
     background-color: #fff;
-    padding: 50px;
+    padding: 0 25px;
 }
 
 #intro {
     height: 100%;
     background-image: url("../img/light-blue-background.jpg");
     background-size: cover;
+    position: relative;
 }
 
 .bio {
@@ -87,22 +82,36 @@ h3 {
     overflow: auto;
 }
 
-.navbar {
-    background-color: transparent;
-    background: transparent;
-    border-color: transparent;
+nav {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 2px;
 }
 
-.navbar li {
-    color: #000
+nav .container {
+    width: 100%;
+    max-width: 768px;
+}
+
+nav div {
+    display: inline-block;
+    text-align: center;
+    width: 18%;
+    padding: 5px;
+}
+
+nav div a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 800;
+    font-size: 1.5em;
 }
 
 #tag-projects {
     color: #E57373;
-}
-
-a {
-	font-size: 15px !important;
 }
 
 a#tag-projects {
@@ -110,8 +119,8 @@ a#tag-projects {
     border-bottom: 3px solid transparent;
 }
 
-a#tag-projects:hover {
-    border-bottom: 3px solid #E57373;
+a:hover, :active, :focus, :visited {
+	text-decoration: none !important;
 }
 
 #tag-writings {
@@ -119,17 +128,9 @@ a#tag-projects:hover {
     color: #64B5F6;
 }
 
-a#tag-writings:hover {
-    border-bottom: 3px solid #64B5F6;
-}
-
 #tag-contacts {
     font-weight: bold;
     color: #81C784;
-}
-
-a#tag-contacts:hover {
-    border-bottom: 3px solid #81C784;
 }
 
 .content {
@@ -178,6 +179,16 @@ td {
 .contact-icon {
     padding: 15px;
     color: #81C784;
+}
+
+.contact-icon:hover, :active {
+	color: #404040;
+}
+
+
+.quotes p {
+	font-family: 'Dancing Script', cursive;
+	font-size: 26px;
 }
 
 footer {
