@@ -17,7 +17,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     width: 100%;
-    animation: type 4s steps(100, end);
+    animation: type 7s steps(500, end);
 }
 @keyframes type {
     from {
