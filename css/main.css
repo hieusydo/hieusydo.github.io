@@ -2,10 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 
+* {margin: 0; padding: 0;}
+
 body {
     font-family: "Roboto", sans-serif;
-    margin: 0; 
-    padding: 0;
 }
 
 /*Shoutout to @samarkandiy for the cool instruction on adding type animation with just css http://codepen.io/rusjames/pen/uAFhE*/
@@ -23,18 +23,6 @@ body {
     from {
         width: 0;
     }
-}
-
-h1 {
-    font-weight: 800;
-    color: #404040;
-    font-size: 5em;
-    margin: 0;
-}
-
-h2 {
-    font-weight: 300;
-    margin-bottom: 30px;
 }
 
 h3 {
@@ -63,6 +51,19 @@ h3 {
     top: 30%;
 }
 
+.bio h1 {
+    font-weight: 800;
+    color: #404040;
+    font-size: 5em;
+    margin: 0;
+}
+
+.bio h2 {
+	font-style: italic;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
 #projects h2 {
     color: #E57373;
 }
@@ -89,6 +90,7 @@ nav {
     display: block;
     position: absolute;
     bottom: 2px;
+	background-color: rgba(230, 241, 247, 0.5) 
 }
 
 nav .container {
@@ -99,7 +101,7 @@ nav .container {
 nav div {
     display: inline-block;
     text-align: center;
-    width: 18%;
+    width: 33%;
     padding: 5px;
 }
 
