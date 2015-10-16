@@ -42,6 +42,7 @@ h3 {
 #intro {
     height: 100%;
     background-image: url("../img/light-blue-background.jpg");
+    background-color: #E9F2F7;
     background-size: cover;
     position: relative;
 }
