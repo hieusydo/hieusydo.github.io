@@ -52,7 +52,7 @@ h3 {
     top: 30%;
 }
 
-.bio h1 {
+h1 {
     font-weight: 800;
     color: #404040;
     font-size: 9em;
@@ -229,4 +229,75 @@ footer {
 	font-style: italic;
 	color: #c0392b;
 	font-size: 16px;
+}
+
+/*RESPONSIVE*/
+@media all and (max-width: 800px) {
+	.section .content {
+		width: 90%;
+		max-width: 700px;
+	}
+}
+
+@media all and (max-width: 650px) {
+	.projects {
+		display: none;
+	}
+	
+	nav div {
+		width: 22%;
+	}
+}
+
+@media all and (max-width: 530px) {	
+	h1 {
+		font-size: 2.5em;
+	}
+
+	.heading {
+		top: 5%;
+		width: 400px;
+		margin-left: -200px;
+	}
+	
+	.press {
+		display: none;
+	}
+	
+	nav div {
+		width: 30%;
+		padding: 5px 0px;
+	}
+	
+	#contact a {
+		display: block;
+	}
+}
+
+@media all and (max-width: 480px) {
+	h1 {
+		font-size: 5em;
+	}
+	
+	.heading {
+		top: 2%;
+	}
+	
+	nav {
+		height: auto;
+	}
+	
+	nav .container div {
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px 0px;
+	}
+	
+	nav {
+		display: none;
+	}
+	
 }
