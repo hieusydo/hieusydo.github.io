@@ -11,7 +11,19 @@
     <script>
     $(document).ready(function() {
         $('.container a').smoothScroll();
-    });
+		$(window).scroll(function () {
+		      //if you hard code, then use console
+		      //.log to determine when you want the 
+		      //nav bar to stick.  
+		      console.log($(window).scrollTop())
+		    if ($(window).scrollTop() > 280) {
+		      $('.nav').addClass('nav-fixed');
+		    }
+		    if ($(window).scrollTop() < 281) {
+		      $('.nav').removeClass('nav-fixed');
+		    }
+	  	});        
+    });  
     </script>
 </head>
 
@@ -35,93 +47,87 @@
     </nav>       
     <div id="break-writings"></div>
     <section id="writings">
-        <h2>ABOUT</h2>
+        <h2 class="content-title">ABOUT</h2>
         <div class="content">
-            <p>Hey there, thanks for checking out my unborn baby. As you can see, I am still a web-design noob. If you have any advice or know any resources, let me know! My email is in the Contact section. You can also spam me with a tirade of how awful this site is lmaoo</p>
-            <p>Anyway, my name is Hieu. (I know, who even has four vowels in his name?) It&#39;s pronounced like Hugh. Not hard right?</p> 
-            <p>I am a freshman at NYU, majoring in Computer Science and Engineering. I like both software and hardware. I want to contribute to the creation of some AI form like Jarvis. I also want to make a durable multi-functional intelligent suite. Ok, yes I want to become Iron Man. What&#39;s wrong with that?</p>
-            <p>I usually let myself sink into deep thoughts (it&#39;s more like random philosophical bs), and I feel like I have realized many things about life and universal humans' conditions, but most of the time I don&#39;t do well explaining myself to others (do you even know what I have been saying?), so I&#39;ll let my favorite quotes represent different pieces of my mind. Hopefully you can connect them and have a general idea of who I am.</p>
+            <p>Hey, I am Hieu. (I know, who even has four vowels in his name?)</p>
+            <p>I am a freshman at NYU, majoring in Computer Science and Engineering. I like both software and hardware. I want to create an advanced AI like Jarvis and a durable multi-functional intelligent suite. Ok, yes I kinda want to be Iron Man.</p>
+            <br>
+            <p>I occasionaly fall in deep thought (it&#39;s more like random philosophical bs), and I feel like I have realized many things about life and universal humans' conditions, but most of the time I don&#39;t do well explaining myself to others (do you even know what I have been saying?), so I&#39;ll let my favorite quotes represent different pieces of my mind. Hopefully you can connect them and have a general idea of who I am.</p>
             <br>
 			<div class="quotes">
 	            <blockquote>
 	            	<p>I am a man because of two words, You may. It's my choice.</p>
-	            	<p>&mdash; East of Eden (John Steinbeck)</p>
+	            	<p>&mdash; East of Eden</p>
+	            	<!-- John Steinbeck -->
 	            </blockquote>
 
-	            <blockquote>
+<!-- 	            <blockquote>
 	            	<p>It has not come to you by means of teachings! It has come to you in the course of your own search, on your own path, through thoughts, through meditation, through realizations, through enlightenment.</p>
 	            	<p>&mdash; Siddhartha (Hermann Hesse)</p>
-	            </blockquote>
+	            </blockquote> -->
 
 	            <blockquote>
 	            	<p>Be curious. Read widely. Try new things. What people call intelligence just boils down to curiosity.</p>
 	            	<p>&mdash; Aaron Swartz</p>
 	            </blockquote>
 
-	            <blockquote>
+<!-- 	            <blockquote>
 	            	<p>Life goes on, unmindful of beginning, end, kamyab, nah-kam, crisis or catharsis, moving forward like a slow, dusty caravan of kochis.</p>
 	            	<p>&mdash; The Kite Runner (Khaled Hosseini)</p>
-	            </blockquote>            
+	            </blockquote>  -->           
 
 	            <blockquote>
 	            	<p>A life unshared is not worth living.</p>
 	            	<p>&mdash; Mozzie, White Collar</p>
 	            </blockquote>
 
-	            <blockquote>
+<!-- 	            <blockquote>
 	            	<p>It's not their pain you're afraid of. It's yours, Charles. And as frightening as it can be, that pain will make you stronger. If you allow yourself to feel it, embrace it, it will make you more powerful than you've ever imagined. It's the greatest gift we have: to bear their pain without breaking. And it comes from the most human part of us: hope.</p>
 	            	<p>&mdash; Professor X, X-Men: Days of Future Past</p>
-	            </blockquote>	
+	            </blockquote> -->	
 			</div>
+			<p id="notice">This website is still under construction. Thank you for stopping by.</p>
+			<p id="notice">Don&#39;t forget to check back for updates!</p>
 
         </div>
     </section>    
     <div id="break-projects"></div>
     <section id="projects">
-        <h2>PROJECTS</h2>
+        <h2 class="content-title">PROJECTS</h2>
         <div class="content">
-            <table>
-                <tbody>
-                    <tr>
-                        <th>
-                            <div>
-                                <h3>Notr: Text Visualization with Application <br> in Dynamic Mind Mapping</h3>
-                            </div>
-                            <img src="http://www.stillhq.com/arduino/thermostat-smaller.jpg" alt="" width="75%">
-                        </th>
-                        <td>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus eros risus. Sed tristique, purus ac laoreet aliquet, magna ipsum vehicula augue, a ultricies nisl velit eu velit. Sed ullamcorper libero ligula. Proin nec commodo odio, quis vestibulum arcu. Donec varius vitae elit et tincidunt. Sed fermentum venenatis cursus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus eros risus. Sed tristique, purus ac laoreet aliquet, magna ipsum vehicula augue, a ultricies nisl velit eu velit. Sed ullamcorper libero ligula. Proin nec commodo odio, quis vestibulum arcu. Donec varius vitae elit et tincidunt. Sed fermentum venenatis cursus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus eros risus. Sed tristique, purus ac laoreet aliquet, magna ipsum vehicula augue, a ultricies nisl velit eu velit. Sed ullamcorper libero ligula. Proin nec commodo odio, quis vestibulum arcu. Donec varius vitae elit et tincidunt. Sed fermentum venenatis cursus.</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            <div>
-                                <h3>SIA: Talk About It - Sex-ed for <br>Vietnamese Teens</h3>
-                            </div>
-                            <img src="http://www.blogcdn.com/www.engadget.com/media/2012/09/09-20-2012form-1-on-desk00-1348689824.jpg" alt="" width="75%">
-                        </th>
-                        <td>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus eros risus. Sed tristique, purus ac laoreet aliquet, magna ipsum vehicula augue, a ultricies nisl velit eu velit. Sed ullamcorper libero ligula. Proin nec commodo odio, quis vestibulum arcu. Donec varius vitae elit et tincidunt. Sed fermentum venenatis cursus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus eros risus. Sed tristique, purus ac laoreet aliquet, magna ipsum vehicula augue, a ultricies nisl velit eu velit. Sed ullamcorper libero ligula. Proin nec commodo odio, quis vestibulum arcu. Donec varius vitae elit et tincidunt. Sed fermentum venenatis cursus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus eros risus. Sed tristique, purus ac laoreet aliquet, magna ipsum vehicula augue, a ultricies nisl velit eu velit. Sed ullamcorper libero ligula. Proin nec commodo odio, quis vestibulum arcu. Donec varius vitae elit et tincidunt. Sed fermentum venenatis cursus.</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            <div>
-                                <h3>Arduino-based Home Thermostat</h3>
-                            </div>
-                            <img src="http://abduzeedo.com/files/originals/google_material-design_10-2998x1998.jpg" alt="" width="75%">
-                        </th>
-                        <td>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus eros risus. Sed tristique, purus ac laoreet aliquet, magna ipsum vehicula augue, a ultricies nisl velit eu velit. Sed ullamcorper libero ligula. Proin nec commodo odio, quis vestibulum arcu. Donec varius vitae elit et tincidunt. Sed fermentum venenatis cursus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus eros risus. Sed tristique, purus ac laoreet aliquet, magna ipsum vehicula augue, a ultricies nisl velit eu velit. Sed ullamcorper libero ligula. Proin nec commodo odio, quis vestibulum arcu. Donec varius vitae elit et tincidunt. Sed fermentum venenatis cursus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus eros risus. Sed tristique, purus ac laoreet aliquet, magna ipsum vehicula augue, a ultricies nisl velit eu velit. Sed ullamcorper libero ligula. Proin nec commodo odio, quis vestibulum arcu. Donec varius vitae elit et tincidunt. Sed fermentum venenatis cursus.</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="post">
+            	<h3>Imagely: Learn Words with Images</h3>
+            	<h4>Built at hackNY 2015.</h4>
+            	<br>
+            	<img src="img/imagely.png" alt="" class="post-thumb">
+            	<p>Imagely is a language learning tool that associate an image with seven words. Using Clarify's powerful image recognition system, the app retrieves words associated with the image url inputed by the user. It then uses Yandex translation API to translate those words into a language of the user's choice. Current supported languages are: Spanish, Russian, Vietnamese, Dutch and Hebrew. My team also think of making a quiz mode that will allow users to bookmark important words and review later.</p>
+            </div>        	
+            <div class="post">
+            	<h3>Notr: Text Visualization in Mindmapping</h3>
+            	<h4>Built at HackMIT 2015, my first hackathon in the US!</h4>
+            	<br>
+            	<img src="img/notr.png" alt="" class="post-thumb">
+            	<p>Notr is a text visualization software based on AngularJS with dynamic mind mapping capabilities. Mindmapping is awesome, but drawing one takes time and effort. Notr can render graphs based on input text with simple syntax and structure. It is a text based application that can parse the nodal relationships and render them on a graph. UI combines a text editor and a display for the graph. -@, #, -, and id. (Parser). -render graph with said relationships. This project is possible thanks to Ace.c9.io, angular-ui-ace, d3.js, ui-bootstrap</p>
+            </div>
+            <div class="post">
+            	<h3>SIA: Talk About It - Sex-ed for Vietnamese Teens</h3>
+            	<h4>Second Prize - Built at Hackademics Vietnam 2015, my first hackathon ever!</h4>
+            	<br>
+            	<img src="img/sia.png" alt="" class="post-thumb">
+            	<p>A sex education website designed to provide useful info and interactive data to equip teenagers with crucial knowledge about psychophysiological issues. These include but is not limited to safe sex, choice, and gender. The information is aggregated from trusted source and comes in various forms such as articles, charts, graphs, scenarios, et cetera. A sharing section also allows teens to post any concerns to receive advice, or simply to share their personal stories. This project is built based on: angular-google-chart and angular bootstrap.</p>
+            </div>      
+            <div class="post">
+            	<h3>Home Thermostat</h3>
+            	<h4>First hardware project!</h4>
+            	<br>
+            	<img src="img/thermostat.jpg" alt="" class="post-thumb">
+            	<p>A simple elegant home thermostat built with Arduino Uno. The temperature used in this project is TMP36, which is decent despite some inaccucracy. The sensor converts the change in voltage into temperature. The conversion process happens in the Arduino, an aweosome powerful microcontroller, which then displays the results onto the liquid display. It was a quick weekend project, and I had lots of fun doing it!</p>
+            </div>                     
         </div>
     </section>
     <div id="break-contact"></div>
     <section id="contact">
-        <h2>CONTACT</h2>
+        <h2 class="content-title">CONTACT</h2>
         <div class="content">
             <a href="mailto:hieusydo@gmail.com" class="contact-icon"><i class="fa fa-envelope-o fa-5x"></i></a>
             <a href="https://www.github.com/hieusydo" class="contact-icon"><i class="fa fa-github fa-5x"></i></a>

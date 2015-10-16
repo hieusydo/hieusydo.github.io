@@ -91,7 +91,15 @@ nav {
     display: block;
     position: absolute;
     bottom: 2px;
-	background-color: rgba(230, 241, 247, 0.5) 
+	background-color: rgba(230, 241, 247, 0.5); 
+}
+
+.nav-fixed {
+    top: 0;
+    z-index: 100;
+  	position: fixed;
+    width: 100%;
+	background-color: rgba(230, 241, 247, 1); 
 }
 
 nav .container {
@@ -136,9 +144,19 @@ a:hover, :active, :focus, :visited {
     color: #81C784;
 }
 
+/*=======ABOUT=======*/
+.content-title {
+	font-size: 3em;
+	margin-top: 65px;
+	padding-bottom: 15px;
+}
+
 .content {
     font-weight: normal;
-    padding: 0 70px 30px 70px;
+    padding: 0 0 30px 0;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content p {
@@ -147,55 +165,67 @@ a:hover, :active, :focus, :visited {
     margin: 0 0 10px;
 }
 
-.content th,
-td {
-    padding: 15px 0 30px 0;
+.post {
+	margin-bottom: 50px;
 }
 
-.content th {
-    width: 30%;
+.post h3 {
+	font-size: 2em;
+	font-weight: 900;
+	padding-bottom: 0;
+	margin-bottom: 5px;
 }
 
-.content th div {
-    margin-bottom: 15px;
+.post h4 {
+	font-style: italic;
+    color: #AFAAAA;
+    font-size: 1.2em;
+    margin-bottom: 5px;
 }
 
-.content img {
-    border-radius: 5px;
+.post-thumb {
+	max-width: 300px;
+	float: left;
+	padding-right: 10px;
 }
-
-#break-projects {
-    height: 5px;
-    background-color: #E57373;
-}
-
-#break-writings {
-    height: 5px;
-    background-color: #64B5F6;
-}
-
-#break-contact {
-    height: 5px;
-    background-color: #81C784;
-}
-
-.contact-icon {
-    padding: 15px;
-    color: #81C784;
-}
-
-.contact-icon:hover, :active {
-	color: #404040;
-}
-
 
 .quotes p {
 	font-family: 'Italianno', cursive;	
 	font-size: 1.95em;
 }
 
+/*SEPARATORS*/
+#break-projects {
+    height: 5px;
+    background-color: #E57373;
+}
+#break-writings {
+    height: 5px;
+    background-color: #64B5F6;
+}
+#break-contact {
+    height: 5px;
+    background-color: #81C784;
+}
+
+/*CONTACT*/
+.contact-icon {
+    padding: 15px;
+    color: #81C784;
+}
+.contact-icon:hover, :active {
+	color: #81C784;
+}
+
 footer {
     font-style: italic;
     text-align: center;
     margin-bottom: 15px;
+}
+
+#notice {
+	text-align: center;
+	font-style: italic;
+	color: #c0392b;
+	font-size: 16px;
 }
