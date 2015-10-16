@@ -214,7 +214,7 @@ a:hover, :active, :focus, :visited {
     padding: 15px;
     color: #81C784;
 }
-.contact-icon:hover, :active {
+.contact-icon:hover, :active, :focus, :visited {
 	color: #81C784;
 }
 
