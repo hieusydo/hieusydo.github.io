@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Italianno);
-
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 * {margin: 0; padding: 0;}
 
 body {
@@ -195,8 +195,9 @@ a:hover, :active, :focus, :visited {
 }
 
 .quotes p {
-	font-family: 'Italianno', cursive;	
-	font-size: 1.95em;
+	font-family: 'Poiret One', cursive;	
+	font-size: 1.25em;
+	font-weight: 50;
 }
 
 /*SEPARATORS*/
