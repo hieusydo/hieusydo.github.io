@@ -1,138 +1,370 @@
-<html>
+<!-- This website is a work in progress. 
+
+This website is based on Freelancer template by Start Bootstrap team. 
+I am learning a lot of HTML & CSS design convention by looking the template.
+Thank you! 
+
+Hieu Do
+-->
+
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Hieu Do</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <link rel="icon" href="favicon.ico">
-    <link href="css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='css/main.css' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
-    <section id="intro">
-        <div class="bio">
-            <h1>Hieu Do</h1>
-            <h2>Student. Engineer. Dreamer.</h2>
-            <!--     		<p id="greetings">console.log('Hello, welcome to my ambiguous world!');</p> -->
-        </div>
-    </section>
-    <nav class="nav">
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div><a href="#writings" id="tag-writings">ABOUT</a></div>
-            <div><a href="#projects" id="tag-projects">PROJECTS</a></div>
-            <!-- 	            <div><a href="#" id="">MINIGAMES</a></div>
-            <div><a href="#" id="">MISC</a></div> -->
-            <div><a href="#contact" id="tag-contacts">CONTACT</a></div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Hieu Do</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
     </nav>
-    <div id="break-writings"></div>
-    <section id="writings">
-        <h2 class="content-title">ABOUT</h2>
-        <div class="content">
-            <p>Hey, I am Hieu.</p>
-            <p>I am a freshman at NYU, majoring in Computer Science and Engineering. I am interested in software and hardware. I want to create an advanced AI like Jarvis and a durable multi-functional intelligent suite. Yep, I kinda want to be Iron Man.</p>
-            <p>If you want to talk, email me for a date! (<a href="img/internet-dog.jpg" target="_blank">why should we meet?</a>). Until then, here are some of my favorite quotes representing different pieces of myself. Enjoy!</p>
-            <br>
-            <div class="quotes">
-                <blockquote>
-                    <p>I am a man because of two words, You may. It's my choice.</p>
-                    <p>&mdash; East of Eden</p>
-                    <!-- John Steinbeck -->
-                </blockquote>
-                <!-- MORE button? -->
-                <blockquote>
-                    <p>Be curious. Read widely. Try new things. What people call intelligence just boils down to curiosity.</p>
-                    <p>&mdash; Aaron Swartz</p>
-                </blockquote>
-                <blockquote>
-                    <p>A life unshared is not worth living.</p>
-                    <p>&mdash; Mozzie, White Collar</p>
-                </blockquote>
-                <!-- HEY THERE I SEE YOU CHECKING OUT MY SOURCE CODE! HERE ARE SOME BONUS:  -->
-                <!-- 	            <blockquote>
-	            	<p>Life goes on, unmindful of beginning, end, kamyab, nah-kam, crisis or catharsis, moving forward like a slow, dusty caravan of kochis.</p>
-	            	<p>&mdash; The Kite Runner (Khaled Hosseini)</p>
-	            </blockquote>  -->
-                <!-- 	            <blockquote>
-	            	<p>It has not come to you by means of teachings! It has come to you in the course of your own search, on your own path, through thoughts, through meditation, through realizations, through enlightenment.</p>
-	            	<p>&mdash; Siddhartha (Hermann Hesse)</p>
-	            </blockquote> -->
-                <!-- 	            <blockquote>
-	            	<p>It's not their pain you're afraid of. It's yours, Charles. And as frightening as it can be, that pain will make you stronger. If you allow yourself to feel it, embrace it, it will make you more powerful than you've ever imagined. It's the greatest gift we have: to bear their pain without breaking. And it comes from the most human part of us: hope.</p>
-	            	<p>&mdash; Professor X, X-Men: Days of Future Past</p>
-	            </blockquote> -->
-            </div>
-            <p id="notice">This website is in progress. Thank you for stopping by!</p>
-        </div>
-    </section>
-    <div id="break-projects"></div>
-    <section id="projects">
-        <h2 class="content-title">PROJECTS</h2>
-        <div class="content">
-            <div class="post">
-                <h3>Imagely: Learn Words with Images</h3>
-                <h4>Built at hackNY 2015.</h4>
-                <br>
-                <img src="img/imagely.png" alt="" class="post-thumb">
-                <p>Imagely is a language learning tool that associate an image with seven words. Using Clarify's powerful image recognition system, the app retrieves words associated with the image url inputed by the user. It then uses Yandex translation API to translate those words into a language of the user's choice. Current supported languages are: Spanish, Russian, Vietnamese, Dutch and Hebrew. My team also think of making a quiz mode that will allow users to bookmark important words and review later.</p>
-            </div>
-            <div class="post">
-                <h3>Notr: Text Visualization in Mindmapping</h3>
-                <h4>Built at HackMIT 2015, my first hackathon in the US!</h4>
-                <br>
-                <img src="img/notr.png" alt="" class="post-thumb">
-                <p>Notr is a text visualization software based on AngularJS with dynamic mind mapping capabilities. Mindmapping is awesome, but drawing one takes time and effort. Notr can render graphs based on input text with simple syntax and structure. It is a text based application that can parse the nodal relationships and render them on a graph. UI combines a text editor and a display for the graph. -@, #, -, and id. (Parser). -render graph with said relationships. This project is possible thanks to Ace.c9.io, angular-ui-ace, d3.js, ui-bootstrap</p>
-            </div>
-            <div class="post">
-                <h3>SIA: Talk About It - Sex-ed for Vietnamese Teens</h3>
-                <h4>Second Prize - Built at Hackademics Vietnam 2015, my first hackathon ever!</h4>
-                <br>
-                <img src="img/sia.png" alt="" class="post-thumb">
-                <p>A sex education website designed to provide useful info and interactive data to equip teenagers with crucial knowledge about psychophysiological issues. These include but is not limited to safe sex, choice, and gender. The information is aggregated from trusted source and comes in various forms such as articles, charts, graphs, scenarios, et cetera. A sharing section also allows teens to post any concerns to receive advice, or simply to share their personal stories. This project is built based on: angular-google-chart and angular bootstrap.</p>
-            </div>
-            <div class="post">
-                <h3>Home Thermostat</h3>
-                <h4>First hardware project!</h4>
-                <br>
-                <img src="img/thermostat.jpg" alt="" class="post-thumb">
-                <p>A simple, elegant home thermostat built with Arduino Uno. The temperature used in this project is TMP36, which is decent despite some inaccucracy. The sensor converts the change in voltage into temperature. The conversion process happens in the Arduino, an aweosome powerful microcontroller, which then displays the results onto the liquid display. It was a quick weekend project, and I had lots of fun doing it!</p>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="name">Hieu Do</span>
+                        <hr class="star-light">
+                        <span class="skills">Student - Software Engineer</span>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-    <div id="break-contact"></div>
-    <section id="contact">
-        <h2 class="content-title">CONTACT</h2>
-        <div class="content">
-            <a href="mailto:hieusydo@gmail.com" class="contact-icon" target="_blank"><i class="fa fa-envelope-o fa-5x"></i></a>
-            <a href="https://www.github.com/hieusydo" class="contact-icon" target="_blank"><i class="fa fa-github fa-5x"></i></a>
-            <a href="https://www.twitter.com/hieudosy" class="contact-icon" target="_blank"><i class="fa fa-twitter fa-5x"></i></a>
-            <a href="https://www.linkedin.com/pub/hieu-do/55/830/944" class="contact-icon" target="_blank"><i class="fa fa-linkedin fa-5x"></i></a>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Projects</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/alertify.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/notr.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/imagely.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/sia.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/thermostat.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Hi, I am Hieu, a freshman at New York University, majoring in Computer Science and Engineering. I am interested in many things: artificial intelligence, robotics, entrepreneurship, anything challenging and fun.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Thank you for checking out my website. This is where I keep track of my projects. In my freetime, I like exploring NYC, eating food and meeting people.</p>
+                    <p>Feel free to contact me for a date! :)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row" id="contact">
+                   <!--  <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div>
+                </div> -->
+               <div class="col-sm-1 col-sm-offset-4 col-xs-4 text-center">
+                    <a href="mailto:hieusydo@gmail.com" class="contact-icon" target="_blank"><i class="fa fa-envelope-o fa-5x"></i></a>
+                </div>
+                <div class="col-sm-1 col-xs-4 text-center">
+                    <a href="https://www.github.com/hieusydo" class="contact-icon" target="_blank"><i class="fa fa-github fa-5x"></i></a>
+                </div>
+                <div class="col-sm-1 col-xs-4 text-center">
+                    <a href="https://www.twitter.com/hieudosy" class="contact-icon" target="_blank"><i class="fa fa-twitter fa-5x"></i></a>
+                </div>
+                <div class="col-sm-1 col-xs-4 text-center">
+                    <a href="https://www.linkedin.com/pub/hieu-do/55/830/944" class="contact-icon" target="_blank"><i class="fa fa-linkedin fa-5x"></i></a>                
+                </div>					
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Hieu Do 2015
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+<!--             <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Alertify</h2>
+                            <h5>Emergency Alert with Hand Gestures</h5>
+                            <hr class="star-primary">
+                            <img src="img/alertify.png" class="img-responsive img-centered" alt="">
+                            <p>An Android mobile and wear app that recognizes hand gestures to trigger emergency alert: Flick the fingers to send the current location, or twist the wrist call an emergency contact. Built with Java on Android Studio and Presto API.</p>
+                            <br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Notr</h2>
+                            <h5>Text Visualization for Mind-mapping</h5>
+                            <hr class="star-primary">
+                            <img src="img/notr.png" class="img-responsive img-centered" alt="">
+                            <p>Notr is a text visualization software that auto-generates dynamic, interactive mind maps purely based on texts provided by users. Users only need to type in the text in a specific format, and the drawing will be done automatically. No more worries when you have good ideas but not-so-good drawing skills! Built with AngularJS, D3.js, and Ace.</p>
+                            <br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Imagely</h2>
+                            <h5>Active Language Learning with Images</h5>
+                            <hr class="star-primary">
+                            <img src="img/imagely.png" class="img-responsive img-centered" alt="">
+                            <p>Imagely is a language learning tool that associates an image with words. When users import an image, the app retrieves words associated with that image. Those words can be translated into Spanish, Russian, Dutch, Hebrew, and Vietnamese. A quiz mode will be added in the future. Built with AngularJS, Clarifai API, and Yandex API.</p>
+                            <br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>SIA</h2>
+                            <h5>Sex-ed for Vietnamese Teens</h5>
+                            <hr class="star-primary">
+                            <img src="img/sia.png" class="img-responsive img-centered" alt="">
+                            <p>A sex education platform that pioneers in promoting awareness among Vietnamese teens by encouraging them to share personal stories, and providing information aggregated from trusted sources. Built with AngularJS and Google Charts API.</p>
+                            <br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Thermostat</h2>
+                            <h5>My first hardware project!</h5>
+                            <hr class="star-primary">
+                            <img src="img/thermostat.png" class="img-responsive img-centered" alt="">
+                            <p>My first hardware project! A simple, elegant home thermostat with a temperature sensor that converts the change in voltage into temperature. The result is shown on the liquid display. Built with Arduino Uno.</p>
+                            <br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
 </body>
-<!-- <footer>
-	Copyright &copy	2015 Hieu Do
-</footer> -->
-<script src="js/jquery.js"></script>
-<script src="js/jquery.smooth-scroll.js"></script>
-<script>
-$(document).ready(function() {
-    $('.container a').smoothScroll();
-    $(window).scroll(function() {
-        //if you hard code, then use console
-        //.log to determine when you want the 
-        //nav bar to stick.  
-        console.log($(window).scrollTop())
-        if ($(window).scrollTop() > 350) {
-            $('.nav').addClass('nav-fixed');
-        }
-        if ($(window).scrollTop() < 351) {
-            $('.nav').removeClass('nav-fixed');
-        }
-    });
-});
-</script>
 
 </html>
