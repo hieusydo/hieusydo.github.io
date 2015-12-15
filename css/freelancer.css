@@ -1,6 +1,7 @@
 #contact {
 	/*margin-bottom: 49px;*/
 	padding-bottom: 49px;
+	background-color: #2c3e50;
 }
 
 /*!
@@ -27,7 +28,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #ecf0f1;
 }
 
 h1,
@@ -63,12 +64,12 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #2c3e50;
 }
 
 hr.star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
+    color: #2c3e50;
+    background-color: #ecf0f1;
 }
 
 hr.star-primary {
@@ -86,8 +87,8 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #18bc9c;
+    color: #2c3e50;
+    background: #ecf0f1;
 }
 
 header .container {
@@ -185,8 +186,8 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #18bc9c;
+    color: #2c3e50;
+    background: #ecf0f1;
 }
 
 section.success a,
@@ -225,7 +226,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: #2c3e50;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -348,7 +349,6 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
     background-color: #2c3e50;
 }
 
@@ -461,4 +461,15 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+#contact a {
+	padding: 50px;
+}
+
+@media all and (max-width: 530px) {	
+	#contact a {
+		padding: 15px;
+		display: block;
+	}
 }
