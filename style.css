@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-y: -moz-scrollbars-vertical;
+    overflow-y: scroll
+}
+
+/*html {
+    background: url(pier.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}*/
+
+header {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    padding-bottom: 200px;
+    padding-left: 185px;
+    padding-top: 200px;
+    position: relative
+}
+
+@media all and (max-width: 1200px) {
+    .wrapper {
+        padding-left: 160px;
+        padding-bottom: 150px
+    }
+}
+
+@media all and (max-width: 850px) {
+    .wrapper {
+        padding-left: 135px
+    }
+}
+
+@media all and (max-width: 700px) {
+    .wrapper {
+        padding-top: 160px;
+        padding-left: 100px;
+        padding-bottom: 100px
+    }
+}
+
+@media all and (max-width: 600px) {
+    .wrapper {
+        padding-top: 160px;
+        padding-left: 80px
+    }
+}
+
+@media all and (max-width: 500px) {
+    .wrapper {
+        padding-top: 36px;
+        padding-left: 36px
+    }
+}
+
+.text-container {
+    max-width: 600px;
+    padding-right: 50px
+}
+
+@media all and (max-width: 1024px) {
+    .text-container {
+        max-width: 500px
+    }
+}
+
+@media all and (max-width: 500px) {
+    .text-container {
+        padding-right: 50px
+    }
+}
+
+#name {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+#bio {
+    font-size: 1.2em;
+}
+
+#resume a {
+    text-decoration: none;
+}
+
+#contact {
+    padding-top: 1.5em;
+}
+
+.contact-icon {
+    color: #7f8c8d;
+    padding-right: 1.5em;
+}
+
+@media all and (max-width: 500px) {
+    .contact-icon {
+        padding-right: 1em;
+    }
+}
