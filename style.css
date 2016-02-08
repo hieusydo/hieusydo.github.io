@@ -24,9 +24,9 @@ header {
 
 .wrapper {
     box-sizing: border-box;
-    padding-bottom: 200px;
-    padding-left: 185px;
-    padding-top: 200px;
+    padding-bottom: 10em;
+    padding-left: 12em;
+    padding-top: 3.5em;
     position: relative
 }
 
@@ -86,9 +86,19 @@ header {
     font-size: 4em;
     font-weight: 700;
 }
+@media all and (max-width: 320px) {
+    #name {
+        font-size: 3.5em;
+    }  
+}
 
 #bio {
     font-size: 1.2em;
+}
+@media all and (max-width: 320px) {
+    #name {
+        font-size: 3.5em;
+    }  
 }
 
 #resume a {
@@ -104,9 +114,18 @@ header {
     color: #7f8c8d;
     padding-right: 1.5em;
 }
-
 @media all and (max-width: 500px) {
     .contact-icon {
         padding-right: 1em;
     }
+}
+@media all and (max-width: 375px) { /*for iphone 6 lol*/
+    .contact-icon {
+        padding-right: 0.83em;
+    }  
+}
+@media all and (max-width: 320px) {
+    .contact-icon {
+        padding-right: 0.41em;
+    }  
 }
