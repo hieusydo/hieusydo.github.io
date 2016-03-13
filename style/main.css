@@ -9,6 +9,7 @@ html {
     overflow-y: scroll
 }
 
+
 /*html {
     background: url(pier.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -25,7 +26,7 @@ header {
 .wrapper {
     box-sizing: border-box;
     padding-bottom: 10em;
-    padding-left: 12em;
+    padding-left: 5em;
     padding-top: 3.5em;
     position: relative
 }
@@ -66,7 +67,7 @@ header {
 }
 
 .text-container {
-    max-width: 600px;
+    max-width: 700px;
     padding-right: 50px
 }
 
@@ -86,24 +87,26 @@ header {
     font-size: 4em;
     font-weight: 700;
 }
+
 @media all and (max-width: 320px) {
     #name {
         font-size: 3.5em;
-    }  
+    }
 }
 
 #bio {
     font-size: 1.2em;
 }
+
 @media all and (max-width: 320px) {
     #name {
         font-size: 3.5em;
-    }  
+    }
 }
 
 #resume a {
     text-decoration: none;
-	color: #7f8c8d;
+    color: #7f8c8d;
 }
 
 #contact {
@@ -114,18 +117,105 @@ header {
     color: #7f8c8d;
     padding-right: 1.5em;
 }
+
 @media all and (max-width: 500px) {
     .contact-icon {
         padding-right: 1em;
     }
 }
-@media all and (max-width: 375px) { /*for iphone 6 lol*/
+
+@media all and (max-width: 375px) {
+    /*for iphone 6 lol*/
     .contact-icon {
         padding-right: 0.83em;
-    }  
+    }
 }
+
 @media all and (max-width: 320px) {
     .contact-icon {
         padding-right: 0.41em;
-    }  
+    }
 }
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+	height: 100%;
+	width: 25%;
+    background-color: #fff;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    bottom: 0;
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    text-align: right;
+    top: 10px;
+    /*width: 370px;*/
+    z-index: -1;
+}
+@media (max-width:3440px) {
+    #particles-js {
+        width: 30%;
+        height: 50%;
+    }
+}
+
+@media all and (max-width:1368px) {
+    #particles-js {
+        width: 400px
+    }
+}
+
+@media all and (max-width:930px) {
+    #particles-js {
+        width: 350px
+    }
+}
+
+@media all and (max-width:850px) {
+    #particles-js {
+        width: 310px
+    }
+}
+
+@media all and (max-width:770px) {
+    #particles-js {
+        width: 330px
+    }
+    #particles-js {
+        display: none
+    }
+}
+
+@media all and (max-width:700px) {
+    #particles-js {
+        width: 310px
+    }
+}
+
+
+/*
+@media all and (max-width: 768px) {
+    #particles-js {
+        display: none;
+    }
+}
+@media all and (max-width: 500px) {
+    #particles-js {
+        display: none;
+    }
+}
+@media all and (max-width: 320px) {
+    #particles-js {
+        display: none;
+    }
+}*/
