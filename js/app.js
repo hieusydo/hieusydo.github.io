@@ -9,7 +9,7 @@ particlesJS('particles-js',
         "value": 100,
         "density": {
           "enable": true,
-          "value_area": 500
+          "value_area": 125
         }
       },
       "color": {
@@ -22,7 +22,7 @@ particlesJS('particles-js',
           "color": "#000000"
         },
         "polygon": {
-          "nb_sides": 5
+          "nb_sides": 3
         },
         "image": {
           "src": "img/github.svg",
@@ -59,7 +59,7 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 0.75,
+        "speed": 1,
         "direction": "none",
         "random": false,
         "straight": false,
