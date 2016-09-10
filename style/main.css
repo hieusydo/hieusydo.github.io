@@ -1,4 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@font-face {
+  font-family: Niveau-ExtraLight;
+  src: url('../fonts/Niveau-XtraLig.otf');
+}
+@font-face {
+  font-family: Niveau-Light;
+  src: url('../fonts/Niveau-Lig.otf');
+}
+@font-face {
+  font-family: Niveau-Bold;
+  src: url('../fonts/Niveau-Bol.otf');
+}
+
 html,
 body {
   -webkit-box-sizing: border-box;
@@ -6,26 +18,9 @@ body {
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
-  /*  overflow-y: -moz-scrollbars-vertical;
-    overflow-y: scroll*/
   margin: 0;
   height: 100%;
   padding: 0;
-}
-
-html {
-  /*background-color: rgba(236, 240, 241, 0.85);*/
-/*  picture bg 
-  background: url(pier.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
-}
-
-header {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
 }
 
 .wrapper {
@@ -35,81 +30,36 @@ header {
   align-items: center;
   height: 100%;
   justify-content: center;
-  /*padding-bottom: 10em;*/
-  /*padding-left: 5em;*/
+  padding: 0.5em;
   margin: 0.5em;
   position: relative
 }
-
-
-/*@media all and (max-width: 1200px) {
-    .wrapper {
-        padding-left: 160px;
-        padding-bottom: 150px
-    }
+@media all and (max-width: 420px) {
+  .wrapper {
+    padding: 1em;
+  }
 }
 
-@media all and (max-width: 850px) {
-    .wrapper {
-        padding-left: 135px
-    }
-}
-
-@media all and (max-width: 700px) {
-    .wrapper {
-        padding-top: 160px;
-        padding-left: 100px;
-        padding-bottom: 100px
-    }
-}
-
-@media all and (max-width: 600px) {
-    .wrapper {
-        padding-top: 160px;
-        padding-left: 80px
-    }
-}
-
-@media all and (max-width: 500px) {
-    .wrapper {
-        padding-top: 36px;
-        padding-left: 36px
-    }
-}*/
-
-.text-container {
+.container {
   max-width: 700px;
-  /*background-color: rgba(236, 240, 241, 0.85);*/
-  padding: 20px;
-  /*border-radius: 25px;*/
+  font-family: Niveau-ExtraLight, sans-serif;    
+  font-weight: 400;
 }
 
-@media all and (max-width: 1024px) {
-  .text-container {
-    max-width: 500px
-  }
-}
-
-@media all and (max-width: 500px) {
-  .text-container {
-    padding-right: 50px
-  }
-}
 
 #name {
-  font-size: 5em;
-  font-weight: 700;
+  font-family: Niveau-Bold, sans-serif;
+  font-weight: 800;
+  font-size: 6em;
   /*make span center*/
   display: table;
   margin: 0 auto;
 }
-
 @media all and (max-width: 420px) {
   #name {
-    font-size: 4.1em;
+    font-size: 4.2em;
   }
 }
-
 @media all and (max-width: 375px) {
   #name {
     font-size: 3.1em;
@@ -117,12 +67,11 @@ header {
 }
 
 #bio {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
-
 @media all and (max-width: 420px) {
   #bio {
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
 }
 
@@ -148,7 +97,6 @@ header {
 }
 
 a.animated-link {
-  /*padding: 10px;*/
   color: gray;
   text-shadow: none;
   text-decoration: none;
@@ -177,7 +125,7 @@ a.animated-link:focus {
 
 a.animated-link::before,
 a.animated-link::after {
-  font-size: 30px;
+  font-size: 2.4em;
   display: inline-block;
   opacity: 0;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
@@ -186,7 +134,6 @@ a.animated-link::after {
 }
 
 a.animated-link::before {
-  /*margin-right: 10px;*/
   content: '[';
   -webkit-transform: translateX(20px);
   -moz-transform: translateX(20px);
@@ -194,7 +141,6 @@ a.animated-link::before {
 }
 
 a.animated-link::after {
-  /*margin-left: 10px;*/
   content: ']';
   -webkit-transform: translateX(-20px);
   -moz-transform: translateX(-20px);
@@ -211,16 +157,11 @@ a.animated-link:focus::after {
   transform: translateX(0px);
 }
 
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
-
-
 a.animated-underline {
   position: relative;
   color: #000;  
-  font-weight: 400;
+  font-family: Niveau-Light, sans-serif;
+  font-weight: 600;  
   text-decoration: none;
 }
 
@@ -248,47 +189,3 @@ a.animated-underline:hover:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-
-/* ---- particles.js container ---- */
-
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  background-image: url();
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  /*  height: 100%;
-  margin: 0 auto;*/
-  /*  height: 100%;
-  width: 25%;
-    background-color: #fff;
-    background-image: url('');
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    bottom: 0;
-    position: absolute;
-    overflow: hidden;
-    right: 0;
-    text-align: right;
-    top: 10px;
-    /*width: 370px;*/
-  /*z-index: -1;*/
-}
-
-
-/*@media (max-width:3440px) {
-    #particles-js {
-        width: 30%;
-        height: 50%;
-    }
-}
-
-@media all and (max-width:1368px) {
-    #particles-js {
-        width: 400px
-    }
-}*/
