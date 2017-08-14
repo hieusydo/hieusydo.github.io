@@ -1,3 +1,3 @@
-#Personal Website Playground
+# Personal Website Playground
 
-This site will receive constant updates
+My personal site...

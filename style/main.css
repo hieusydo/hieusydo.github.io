@@ -21,8 +21,7 @@ body {
   margin: 0;
   height: 100%;
   padding: 0;
-  background: linear-gradient(to bottom right,#bbdef6,#fcf5ec);
-  /* background: linear-gradient(to bottom,#beded7,#f2f3fb); */
+  background: linear-gradient(to bottom right,#bbdef6,#fcf5ec) repeat;
 }
 
 .wrapper {
