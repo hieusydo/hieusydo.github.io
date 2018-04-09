@@ -1,0 +1,37 @@
+---
+title: "[A Chronicle of Bugs] CORS"
+layout: post
+date: 2018-03-27
+headerImage: false
+tag:
+- bugs
+- cors
+- web
+- networking
+category: blog
+description: CORS
+---
+
+If you are building a complete web application with multiple API calls, chances are you will run into the CORS issue. So what is it?
+
+CORS stands for Cross-Origin Resource Sharing. It is a mechanism that allows access of resources across domains. For example, domain A wants to load resource B1 from domain B. Traditionally, under the same-origin policy, you will get slapped by this red line:
+
+![CORS-console](/assets/images/cors-1.png){:class="img-responsive"}
+
+`No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://localhost:5000' is therefore not allowed access.`
+
+That issue is, in fact, supposed to protect you and your users from malicious requests trying to get unauthorized acces to sensitive data. The traditional same-origin policy enforces that a website can only access data of another site if they both share the same origin (a combination of URI, host name, and port number).
+
+Luckily, nowadays CORS support is a standard. Enabling CORS can be done in both the server and client. On the client side, all cross-origin requests must set the appropriate HTTP headers before sending to the server. On the server side, the server must be configured depending on the language and framework. 
+
+Some examples of sending cross-origin requests are discussed in detail in this <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS" target="_blank">Mozilla Web Docs article</a>. 
+
+On the server side, a brief introduction can be found on <a href="https://enable-cors.org/server.html" target="_blank">Enable-CORS</a>. It also includes resources on how to implement CORS for different platforms. In my case, when working on my Flask application, I used <a href="http://flask-cors.readthedocs.io/en/latest/" target="_blank">Flask-CORS</a>.
+
+Overall, the CORS specfication is a complicated topic. If you run into a problematic scenario, feel free to drop a comment below. 
+
+Cheers!
+
+---
+
+<em> <b>A Chronicle of Bugs</b> series is my attempt to keep a log of some interesting issues I encounter while working on various projects. My motivation is to stay away from <a href="http://i0.kym-cdn.com/entries/icons/original/000/000/246/copypasta.jpg" target="_blank">copypasta</a>, and by forcing to myself to write about those issues, I hope to understand them better. I share my log here in case an Internet wanderer might find it useful.</em>
