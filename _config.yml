@@ -1,6 +1,6 @@
 # main text of home
 name: Hieu Do
-bio:
+bio: a munchlax dev striving to be snorlax
 
 # # twitter summary info
 # description: A blog about technology and stuff related
@@ -8,7 +8,7 @@ bio:
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/profile-munchlax-center.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -24,9 +24,9 @@ permalink: /:title/
 analytics-google: 'UA-70448642-1'
 
 # # if you don't want comments in your posts, leave categories empty
-# disqus:
-#   shortname: mydisqus # enter this from your disqus account
-#   categories: [] # only show disqus for posts that have these categories
+disqus:
+  shortname: hieusydo # enter this from your disqus account
+  categories: [blog] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 github: hieusydo
