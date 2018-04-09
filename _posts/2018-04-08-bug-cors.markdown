@@ -34,4 +34,4 @@ Cheers!
 
 ---
 
-<em> <b>A Chronicle of Bugs</b> series is my attempt to keep a log of some interesting issues I encounter while working on various projects. My motivation is to stay away from <a href="http://i0.kym-cdn.com/entries/icons/original/000/000/246/copypasta.jpg" target="_blank">copypasta</a>, and by forcing to myself to write about those issues, I hope to understand them better. I share my log here in case an Internet wanderer might find it useful.</em>
+<em> <b>A Chronicle of Bugs</b> series is my attempt to keep a log of some interesting issues I encounter while working on various projects. My motivation is to stay away from <a href="http://i0.kym-cdn.com/entries/icons/original/000/000/246/copypasta.jpg" target="_blank">copypasta</a>, so by writing about those issues, I strive to understand them better. I share my log here in case an Internet wanderer might find it useful.</em>
