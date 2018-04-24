@@ -91,7 +91,7 @@ With opening tool, flat-head screwdriver, and paper knife, the top of the hard d
 
 ![hdd-case](/assets/images/pc-build/hdd-case.JPG)
 
-![hdd-open](/assets/images/pc-build/hdd-open.JPG)
+![hdd-open](/assets/images/pc-build/hdd-open.jpg)
 
 In the end, the SSD and HDD sit nicely side by side :) 
 ![drives](/assets/images/pc-build/drives.JPG)
