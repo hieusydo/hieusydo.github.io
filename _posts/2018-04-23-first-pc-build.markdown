@@ -52,16 +52,16 @@ I ordered most of the parts from Newegg, except for the SSD and the graphics car
 <h3>The good part!</h3>
 
 CPU:
-![cpu](/assets/images/pc-build/cpu.JPG)
+![cpu](/assets/images/pc-build/cpu.jpg)
 
 RAM:
 ![ram](/assets/images/pc-build/ram.JPG)
 
 Motherboard:
-![mobo](/assets/images/pc-build/mobo.JPG)
+![mobo](/assets/images/pc-build/mobo.jpg)
 
 CPU + RAM + Mobo = 
-![mobo-2](/assets/images/pc-build/mobo-2.JPG)
+![mobo-2](/assets/images/pc-build/mobo-2.jpg)
 
 ![mobo-3](/assets/images/pc-build/mobo-3.JPG)
 
