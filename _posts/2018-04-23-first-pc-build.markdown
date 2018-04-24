@@ -16,7 +16,7 @@ description: PC Build
 
 After many years following Linus Tech Tips and JayzTwoCents, as well as entertaining myself with some hypothetical builds through PCPartPicker, <br><b>*I finally saved enough and built my very first personal computer!*</b>
 
-I will mostly need this PC as a secondary machine to support my five-year-old Macbook Pro, which ran into the screen discoloration issue last year and had to be left in the store for a week. Also, I will need to run some of my research experiments and do casual gaming on the side. 
+I will mostly need this PC as a secondary machine to support my five-year-old Macbook Pro, which ran into a screen discoloration issue last year and had to be left in the store for a week. Also, I will need to run some of my research experiments and do casual gaming on the side. 
 
 ---
 
@@ -82,7 +82,7 @@ Fit everything into the case and boot test!
 
 <h3>Some modding...</h3>
 
-After a couple days of use, I realized that the 120Gb SSD didn't cut, so I came up with a solution: tear down my portable hard drive! Why didn't I just plug the drive cable into the PC? Because I wanted the full SATA III instead of the USB 3.0 speed!
+After a couple days of use, I realized that the 120Gb SSD didn't cut it, so I came up with a solution: tear down my portable hard drive! Why didn't I just plug the drive cable into the PC? Because I wanted the full SATA III instead of the USB 3.0 speed!
 
 And here are the *guts and gore...*
 
@@ -100,9 +100,9 @@ In the end, the SSD and HDD sit nicely side by side :)
 
 <h3>Final thoughts</h3>
 - <b>Case:</b> Although the Cooler Master Elite 130 is a Mini ITX Case, it still provides good airflow, since the computer temperatures while idle is around 25-30 &deg;C and 50-60 &deg;C under load. 
-- <b>CPU:</b> The 8100, despite being branded as "i3," handles multitasking well with its four real cores. Being the first one of its kind to have four full cores, this 8th generation i3 is seriously the contender for the best value budget CPU in early 2018. 
+- <b>CPU:</b> The 8100, despite being branded as "i3," handles multitasking well with its four real cores. Being the first one of its kind to have four full cores, this 8th generation i3 is a serious contender for the best value CPU in early 2018. 
 - <b>Mobo:</b> The motherboard was the cheapest 3xx I could find, and the Z370 allows me to overclock in case I want to upgrade to an overclockable CPU. The onboard wifi is also a great plus. 
 - <b>Memory:</b> I went for the cheapest 8Gb dual-channel kit. Ram is ram, and also its price is still spiked up by the crypto hype. 
-- <b>PSU:</b> The power supply is good, albeit being full-sized and non-modular, but the Elite 130 handles it no problemo. 
+- <b>PSU:</b> The power supply is good, albeit full-sized and non-modular, but the Elite 130 handles it no problemo. 
 
 Overall, I am quite happy with this first build! 
