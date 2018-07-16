@@ -10,7 +10,7 @@ tag:
 - AI
 - RTS
 category: project
-description: Using evolution strategies to play micro-battles in StarCraft
+description: Real-time strategy video games have presented many interesting problems to artificial intelligence research. I am specifically interested in use evolution strategies to develop good AI for micro-management.
 ---
 
 ![starcraft-2](/assets/images/evocraft/starcraft-2.jpg)

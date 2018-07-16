@@ -9,7 +9,7 @@ tag:
 - web
 - networking
 category: blog
-description: CORS
+description: If you are building a complete web application with multiple API calls, chances are you will run into the CORS issue. So what is it?
 ---
 
 If you are building a complete web application with multiple API calls, chances are you will run into the CORS issue. So what is it?

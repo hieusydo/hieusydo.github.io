@@ -9,7 +9,7 @@ tag:
 - diy
 - computer
 category: blog
-description: PC Build
+description: After many years following Linus Tech Tips and JayzTwoCents, as well as entertaining myself with some hypothetical builds through PCPartPicker, I finally saved enough and built my very first personal computer!
 ---
 
 ![workstation](/assets/images/pc-build/workstation.JPG)

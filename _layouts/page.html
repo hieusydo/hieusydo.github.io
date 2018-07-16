@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: layout
 ---
-{% include header.html %}
 
-{{content}}
-
-{% include footer.html %}
+{% assign __ = site.data.languages[site.language] %}
+{% include page.html %}
